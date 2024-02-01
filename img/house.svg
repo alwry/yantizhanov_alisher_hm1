@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="uuid-be275998-2a40-4c64-a506-c08808dc9e91" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+<svg id="house" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
   <defs>
     <style>
       .uuid-3402052c-bac5-4e02-b9d9-95dcaee50c62 {
         stroke-width: 0px;
       }
     </style>
+    <script>
+      const vectorGraphic = document.querySelector('#house');
+
+      function logThisId() {
+          console.log(this.id, 'was clicked!');
+      }
+
+      vectorGraphic.addEventListener('click', logThisId);
+    </script>
   </defs>
   <path class="uuid-3402052c-bac5-4e02-b9d9-95dcaee50c62" d="m321.06,376.32h-142.13c-5.88,0-10.64-4.76-10.64-10.64v-103.76c0-5.88,4.76-10.64,10.64-10.64h142.13c5.88,0,10.64,4.76,10.64,10.64v103.76c0,5.88-4.76,10.64-10.64,10.64Zm-168.44-119.81v114.57c0,11.55,9.36,20.91,20.91,20.91h152.93c11.55,0,20.91-9.36,20.91-20.91v-114.57c0-11.55-9.36-20.91-20.91-20.91h-152.93c-11.55,0-20.91,9.36-20.91,20.91Z"/>
   <path class="uuid-3402052c-bac5-4e02-b9d9-95dcaee50c62" d="m323.78,207.88h-148.75c-7.79,0-11.4-9.67-5.51-14.77l74.97-64.93c3.16-2.74,7.85-2.74,11.02,0l74.07,64.15c6.2,5.37,2.4,15.56-5.8,15.56Zm-149.09,17.21h150.62c24.01,0,35.13-29.82,16.98-45.54l-75.31-65.22c-9.75-8.44-24.21-8.44-33.96,0l-75.31,65.22c-18.15,15.72-7.03,45.54,16.98,45.54Z"/>
