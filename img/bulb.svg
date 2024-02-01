@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="uuid-fd8a320a-c79b-4d46-a9ae-b10864cad64d" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+<svg id="bulb" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
   <defs>
     <style>
       .uuid-7dc7f1a0-4b42-40db-a59e-5cc3a183404d {
         stroke-width: 0px;
       }
     </style>
+     <script>
+      const vectorGraphic = document.querySelector('#bulb');
+
+      function logThisId() {
+          console.log(this.id, 'was clicked!');
+      }
+
+      vectorGraphic.addEventListener('click', logThisId);
+    </script>
   </defs>
   <rect class="uuid-7dc7f1a0-4b42-40db-a59e-5cc3a183404d" x="208.65" y="332.48" width="82.7" height="11.14" rx="5.57" ry="5.57"/>
   <rect class="uuid-7dc7f1a0-4b42-40db-a59e-5cc3a183404d" x="208.65" y="349.2" width="82.7" height="11.14" rx="5.57" ry="5.57"/>

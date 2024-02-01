@@ -1,0 +1,35 @@
+.hidden {
+    display: none;
+}
+
+.container {
+    display: inline-block;
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* #bulb:hover {
+    fill: rgb(228, 125, 0);
+}
+
+#flower:hover {
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out 0s;
+}
+
+#folder:hover {
+    transform: scale(1.5);
+    transition: all .5s ease-out 0s;
+}
+
+#sand {
+    animation: sandspin 4s infinite linear;
+}
+
+@keyframes sandspin {
+    0% {rotate: 0deg;}
+    100% {rotate: 360deg;}
+} */
+
