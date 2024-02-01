@@ -17,7 +17,7 @@
     justify-content: center;
 }
 
-h2, h3 {
+h2, .subhead {
     font-family: "Manrope", sans-serif;
     text-align: center;
     margin: 0 auto;
@@ -28,7 +28,7 @@ h2 {
     font-weight: 800;
 }
 
-h3 {
+.subhead {
     font-size: 24px;
     font-weight: 400;
     color: rgb(112, 112, 112);
