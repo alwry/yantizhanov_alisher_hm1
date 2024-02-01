@@ -10,7 +10,38 @@
     margin: 10px;
 }
 
-/* #bulb:hover {
+.big {
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2, h3 {
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(112, 112, 112);
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#bulb:hover {
     fill: rgb(228, 125, 0);
 }
 
@@ -31,5 +62,29 @@
 @keyframes sandspin {
     0% {rotate: 0deg;}
     100% {rotate: 360deg;}
-} */
+}
+
+#sand:hover {
+    animation-play-state: paused;
+}
+
+#bat:hover{
+    box-shadow: 0 0 50px #341354;
+    transition: all .8s ease-out 0s;
+    fill: green;
+}
+
+#bat {
+    border-radius: 20px;
+}
+
+#house:hover {
+    animation: beat .90s ease-in-out infinite;
+  }
+
+  @keyframes beat {
+    0% {scale: 100%;}
+    50% {scale: 90%;}
+    100% {scale: 100%;}
+  }
 
